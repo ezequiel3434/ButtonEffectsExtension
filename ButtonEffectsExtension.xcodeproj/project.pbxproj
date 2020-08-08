@@ -14,6 +14,7 @@
 		37A1C69724DF229800552172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A1C69624DF229800552172 /* Assets.xcassets */; };
 		37A1C69A24DF229800552172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A1C69824DF229800552172 /* LaunchScreen.storyboard */; };
 		37A1C6A224DF234100552172 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1C6A124DF234100552172 /* UIButtonExtension.swift */; };
+		37A1C6A424DF2C6200552172 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 37A1C6A324DF2C6200552172 /* images */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		37A1C69924DF229800552172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37A1C69B24DF229800552172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		37A1C6A124DF234100552172 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		37A1C6A324DF2C6200552172 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			children = (
 				37A1C68C24DF229700552172 /* ButtonEffectsExtension */,
 				37A1C68B24DF229700552172 /* Products */,
+				37A1C6A324DF2C6200552172 /* images */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +131,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37A1C6A424DF2C6200552172 /* images in Resources */,
 				37A1C69A24DF229800552172 /* LaunchScreen.storyboard in Resources */,
 				37A1C69724DF229800552172 /* Assets.xcassets in Resources */,
 				37A1C69524DF229700552172 /* Main.storyboard in Resources */,
