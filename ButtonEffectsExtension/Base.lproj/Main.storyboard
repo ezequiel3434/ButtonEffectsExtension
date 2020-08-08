@@ -29,7 +29,6 @@
                                 </state>
                                 <connections>
                                     <action selector="btn1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IbX-Ul-ywE"/>
-                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bQM-RE-v8C"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHd-p4-cA5">
@@ -44,9 +43,7 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="btn1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B8e-kn-Cpm"/>
                                     <action selector="btn2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qsF-IO-gMy"/>
-                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Drn-3A-i0q"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V42-cu-xEb">
@@ -57,13 +54,11 @@
                                     <constraint firstAttribute="height" constant="100" id="rVv-vD-ajT"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="thin" pointSize="40"/>
-                                <state key="normal" title="Button">
+                                <state key="normal" title="Jump">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <action selector="btn1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="upK-bq-oee"/>
                                     <action selector="btn3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMs-7Z-wvk"/>
-                                    <action selector="buttonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hLg-0c-giX"/>
                                 </connections>
                             </button>
                         </subviews>

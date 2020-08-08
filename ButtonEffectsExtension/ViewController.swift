@@ -25,17 +25,17 @@ final class ViewController: UIViewController {
     }
 
     @IBAction func btn1Action(_ sender: Any) {
-        
+        btn1.bounce()
     }
     @IBAction func btn2Action(_ sender: Any) {
+        btn2.shine()
     }
     
     @IBAction func btn3Action(_ sender: Any) {
+        btn3.jump()
     }
     
     
-    @IBAction func buttonAction(_ sender: UIButton) {
-        sender.bounce()
-    }
+    
 }
 
