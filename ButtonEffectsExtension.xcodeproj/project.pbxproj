@@ -13,6 +13,7 @@
 		37A1C69524DF229700552172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A1C69324DF229700552172 /* Main.storyboard */; };
 		37A1C69724DF229800552172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37A1C69624DF229800552172 /* Assets.xcassets */; };
 		37A1C69A24DF229800552172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37A1C69824DF229800552172 /* LaunchScreen.storyboard */; };
+		37A1C6A224DF234100552172 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37A1C6A124DF234100552172 /* UIButtonExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		37A1C69624DF229800552172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37A1C69924DF229800552172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		37A1C69B24DF229800552172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37A1C6A124DF234100552172 /* UIButtonExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				37A1C69624DF229800552172 /* Assets.xcassets */,
 				37A1C69824DF229800552172 /* LaunchScreen.storyboard */,
 				37A1C69B24DF229800552172 /* Info.plist */,
+				37A1C6A124DF234100552172 /* UIButtonExtension.swift */,
 			);
 			path = ButtonEffectsExtension;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37A1C69224DF229700552172 /* ViewController.swift in Sources */,
+				37A1C6A224DF234100552172 /* UIButtonExtension.swift in Sources */,
 				37A1C68E24DF229700552172 /* AppDelegate.swift in Sources */,
 				37A1C69024DF229700552172 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8PF4PD98CF;
 				INFOPLIST_FILE = ButtonEffectsExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +310,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 8PF4PD98CF;
 				INFOPLIST_FILE = ButtonEffectsExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
