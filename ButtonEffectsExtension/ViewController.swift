@@ -8,13 +8,20 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+final class ViewController: UIViewController {
 
+    @IBOutlet weak var btn1: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //UI
+        btn1.round()
+        
     }
 
-
+    @IBAction func btn1Action(_ sender: Any) {
+    }
+    
 }
 

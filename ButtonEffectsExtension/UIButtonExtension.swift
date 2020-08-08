@@ -11,6 +11,7 @@ import UIKit
 extension UIButton {
     // Borde redondo
     func round(){
-        
+        layer.cornerRadius = bounds.height / 2
+        clipsToBounds = true
     }
 }
