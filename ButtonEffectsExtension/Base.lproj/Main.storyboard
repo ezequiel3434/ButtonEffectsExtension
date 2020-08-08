@@ -33,7 +33,7 @@
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZHd-p4-cA5">
                                 <rect key="frame" x="107" y="248" width="200" height="100"/>
-                                <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.57874745130000005" green="0.32151988149999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="a3E-Np-Qku"/>
                                     <constraint firstAttribute="width" constant="200" id="kmG-35-z0M"/>
@@ -44,11 +44,12 @@
                                 </state>
                                 <connections>
                                     <action selector="btn1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="B8e-kn-Cpm"/>
+                                    <action selector="btn2Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qsF-IO-gMy"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V42-cu-xEb">
                                 <rect key="frame" x="107" y="548" width="200" height="100"/>
-                                <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="0.52120530610000004" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="Pnd-qf-Rut"/>
                                     <constraint firstAttribute="height" constant="100" id="rVv-vD-ajT"/>
@@ -59,6 +60,7 @@
                                 </state>
                                 <connections>
                                     <action selector="btn1Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="upK-bq-oee"/>
+                                    <action selector="btn3Action:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMs-7Z-wvk"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -75,6 +77,8 @@
                     </view>
                     <connections>
                         <outlet property="btn1" destination="Rni-v3-BRq" id="F57-Ew-0CR"/>
+                        <outlet property="btn2" destination="ZHd-p4-cA5" id="n7f-Rb-KTP"/>
+                        <outlet property="btn3" destination="V42-cu-xEb" id="QUw-kG-Foh"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
