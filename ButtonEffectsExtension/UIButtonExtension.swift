@@ -14,4 +14,19 @@ extension UIButton {
         layer.cornerRadius = bounds.height / 2
         clipsToBounds = true
     }
+    
+    //Rebote
+    func bounce() {
+        UIView.animate(withDuration: 0.1, animations: {
+            self.transform = CGAffineTransform(scaleX: 1.1, y: 1.1)
+        }) { (completion) in
+            UIView.animate(withDuration: 0.1) {
+                self.transform = .identity
+            }
+        }
+    }
+    
+    //Brillar
+    
+    //Saltar
 }
